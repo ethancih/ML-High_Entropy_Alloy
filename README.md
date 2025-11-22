@@ -20,3 +20,13 @@ https://docs.google.com/spreadsheets/d/12B4Szen0w6W-l8HUELGQ7lpmx_uVusodcEEF_xwr
 ## Difficulties Encountered:
 1. The training data the paper provides does not include every parameter that influences hardness, e.g. molecular composition, method of manufacture.
 2. It is hard to find testing data on the Internet.
+
+## Model Performance:
+1. Training accuracy: 93.3559%
+2. Testing accuracy: 96.6041%
+3. Testing with 13 alloys from other papers: 81.5161%
+
+## Results:
+1. Generated 620,247 alloys with predicted hardness.
+2. According to materials costs found online (units: USD/KG).
+3. Found the best cost-efficient alloy is Al37Cr34Ni16Fe8Cu5 (wt%) with a predicted hardness of 777.2160 HV and a unit price of 1152.9838 USD/KG.
